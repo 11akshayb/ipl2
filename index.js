@@ -114,4 +114,10 @@ function main2() {
   main2();
 });
 
-app.listen(port, () => console.log(`server running at https://akshayb-ipl2-app.herokuapp.com/`));
+app.listen(port, () => {if (port == 3000){
+  console.log(`server running at localhost:${port}`);
+}
+else{
+  console.log(`Server is Running`);
+}
+});

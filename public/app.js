@@ -22,6 +22,7 @@ function extraRunsConcededYearInput() {
   });
 }
 }
+
 function visualizeExtraRunsConcededYearInput(extraRunsConceded) {
   const seriesData = [];
   for (let team in extraRunsConceded) {
@@ -59,7 +60,6 @@ function visualizeExtraRunsConcededYearInput(extraRunsConceded) {
     ]
   });
 }
-
 function visualizeData(data) {
   visualizeMatchesPlayedPerYear(data.matchesPlayedPerYear);
   visualizeMostWinsPerTeameachYear(data.winsPerTeameachYear, data.winsByAllTeams);

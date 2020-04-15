@@ -114,10 +114,11 @@ function main2() {
   main2();
 });
 
-app.listen(port, () => {if (port == 3000){
+app.listen(port, () => {
+  if (port == 3000){
   console.log(`server running at localhost:${port}`);
 }
-else{
+  else{
   console.log(`Server is Running`);
 }
 });

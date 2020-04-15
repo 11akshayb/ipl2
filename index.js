@@ -114,4 +114,4 @@ function main2() {
   main2();
 });
 
-app.listen(port, () => console.log(`server running at http://localhost:${port}`));
+app.listen(port, () => console.log(`server running at https://akshayb-ipl2-app.herokuapp.com/`));

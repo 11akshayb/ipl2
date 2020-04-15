@@ -13,7 +13,7 @@ function extraRunsConcededYearInput() {
     alert("Wrong Input of Year!");
 }
   else{
-  fetch("https://young-earth-76070.herokuapp.com/extraRunsConcededYearInput/"+yearId)
+  fetch("https://akshayb-ipl2-app.herokuapp.com/extraRunsConcededYearInput/"+yearId)
   .then((response) => { 
     return response.json() 
   })

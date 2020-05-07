@@ -10,7 +10,7 @@ function extraRunsConcededYearInput() {
   const yearId = document.getElementById("year-input").value;
   console.log(yearId);
   if (yearId<2008 || yearId>2019) {
-    alert("Wrong Input of Year!");
+    alert("Check Year!!!!!");
 }
   else{
   fetch("https://akshayb-ipl2-app.herokuapp.com/extraRunsConcededYearInput/"+yearId)
